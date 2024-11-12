@@ -11,16 +11,46 @@ body {
     height: 100vh;
 }
 
-/* Style the header title */
 header h1 {
     font-size: 2.5em;
     margin: 0.5em 0;
 }
 
-/* Style the main content */
 main p {
     font-size: 1.5em;
     margin: 1em 0;
+}
+
+/* Animate the dots */
+.dots {
+    display: inline-block;
+    animation: dotsAnimation 1.5s steps(6) infinite;
+}
+
+@keyframes dotsAnimation {
+    0% {
+        content: '';
+    }
+
+    20% {
+        content: '.';
+    }
+
+    40% {
+        content: '..';
+    }
+
+    60% {
+        content: '...';
+    }
+
+    80% {
+        content: '....';
+    }
+
+    100% {
+        content: '.....';
+    }
 }
 
 /* Style the footer */
