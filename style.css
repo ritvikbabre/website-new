@@ -21,38 +21,6 @@ main p {
     margin: 1em 0;
 }
 
-/* Animate the dots */
-.dots {
-    display: inline-block;
-    animation: dotsAnimation 1.5s steps(6) infinite;
-}
-
-@keyframes dotsAnimation {
-    0% {
-        content: '';
-    }
-
-    20% {
-        content: '.';
-    }
-
-    40% {
-        content: '..';
-    }
-
-    60% {
-        content: '...';
-    }
-
-    80% {
-        content: '....';
-    }
-
-    100% {
-        content: '.....';
-    }
-}
-
 /* Style the footer */
 footer {
     margin-top: auto;
