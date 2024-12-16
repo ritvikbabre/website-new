@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
     "\\src\\app",
     "\\src\\app\\Components"
   ],
+  "SelectedNode": "\\eslint.config.mjs",
   "PreviewInSolutionExplorer": false
 }
