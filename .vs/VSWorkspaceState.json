@@ -6,6 +6,6 @@
     "\\src\\app",
     "\\src\\app\\Components"
   ],
-  "SelectedNode": "\\eslint.config.mjs",
+  "SelectedNode": "\\next.config.cjs",
   "PreviewInSolutionExplorer": false
 }
