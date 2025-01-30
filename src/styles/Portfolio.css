@@ -3,11 +3,27 @@
     padding: 20px;
 }
 
+.portfolio h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.portfolio p {
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .portfolio {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
     .portfolio h1 {
-        font-size: 2em;
-        margin-bottom: 10px;
+        font-size: 1.8em;
     }
 
     .portfolio p {
-        font-size: 1.2em;
+        padding: 0 15px;
     }
+}

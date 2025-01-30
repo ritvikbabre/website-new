@@ -8,4 +8,14 @@
     bottom: 0;
     width: 100%;
     font-size: 0.8em;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px 15px;  /* Adjust horizontal padding */
+        margin: 0 auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
 }

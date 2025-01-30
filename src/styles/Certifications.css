@@ -3,14 +3,14 @@
     padding: 20px;
 }
 
-    .certifications h1 {
-        font-size: 2em;
-        margin-bottom: 10px;
-    }
+.certifications h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
 
-    .certifications p {
-        font-size: 1.2em;
-    }
+.certifications p {
+    font-size: 1.2em;
+}
 
 .certificates-container {
     max-width: 1200px;
@@ -208,15 +208,6 @@
     color: white;
     font-size: 2.5em;
     cursor: pointer;
-    background: none;
-    border: none;
-    padding: 0;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    color: white;
-    font-size: 3em;
-    cursor: pointer;
     background: rgba(0,0,0,0.5);
     border: none;
     padding: 0 15px;
@@ -245,5 +236,49 @@
 @media (max-width: 768px) {
     .organizations-grid {
         grid-template-columns: 1fr;
+    }
+
+    .certificates-container {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .organization {
+        margin: 1rem 10px;
+        width: auto;
+        box-sizing: border-box;
+    }
+
+    .certificates-grid {
+        padding: 0;
+        grid-template-columns: 1fr;  /* Single column layout */
+        gap: 1rem;                    /* Reduced gap for tighter layout */
+    }
+
+    .certificate-card {
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;       /* Reduce padding for smaller screens */
+    }
+
+    .certificate-thumbnail {
+        width: 100%;          /* Make thumbnails responsive */
+        height: auto;         /* Maintain aspect ratio */
+        max-width: 100%;      /* Prevent overflow */
+    }
+
+    .modal {
+        padding: 10px;
+    }
+
+    .certifications h1 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    .certifications p {
+        font-size: 1em;
+        padding: 0 10px;
     }
 }

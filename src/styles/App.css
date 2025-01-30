@@ -24,4 +24,25 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.app {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 20px 15px;  /* Slightly increased horizontal padding */
+        margin: 0 auto;       /* Center content */
+        max-width: 100%;      /* Ensure full width without overflow */
+    }
+    
+    .app {
+        padding: 0 10px;      /* Add padding to prevent overflow */
+    }
 }
