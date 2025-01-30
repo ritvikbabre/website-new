@@ -1,0 +1,27 @@
+/* src/styles/App.css */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    min-height: calc(100vh - 120px);
+    /* Adjusting for header and footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}

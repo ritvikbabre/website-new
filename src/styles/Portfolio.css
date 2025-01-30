@@ -1,0 +1,13 @@
+.portfolio {
+    text-align: center;
+    padding: 20px;
+}
+
+    .portfolio h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .portfolio p {
+        font-size: 1.2em;
+    }

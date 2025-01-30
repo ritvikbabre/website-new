@@ -3,9 +3,9 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\app",
-    "\\src\\app\\Components"
+    "\\src\\components",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\next.config.cjs",
+  "SelectedNode": "\\src\\components\\Certifications.jsx",
   "PreviewInSolutionExplorer": false
 }
