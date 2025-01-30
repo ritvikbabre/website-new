@@ -14,7 +14,8 @@ function App() {
                 <Header />
                 <main>
                     <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route path="/" element={<Certifications />} /> {/* Change default route to Certifications */}
+                        <Route path="/home" element={<Home />} /> {/* Add Home route */}
                         <Route path="/portfolio" element={<Portfolio />} />
                         <Route path="/certifications" element={<Certifications />} />
                         <Route path="/contact" element={<Contact />} />
