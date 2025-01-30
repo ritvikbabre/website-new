@@ -1,11 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client"; // Update this line
 import App from "./App";
 import "./styles/App.css";
 
-ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById("root")
-);
+const root = ReactDOM.createRoot(document.getElementById("root")); // Update this line
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+); // Update render method
