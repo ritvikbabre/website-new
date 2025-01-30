@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 
 function App() {
     return (
-        <Router basename="/website-new">
+        <Router>
             <div className="app">
                 <Header />
                 <main>
